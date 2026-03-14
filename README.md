@@ -32,7 +32,7 @@ query implementations for common data retrieval operations.
 
 ## Sample Data
 
-15 books pre-seeded across multiple publishers including
+15 books pre-seeded across multiple publishers, including
 TechReads, ClassicPub, CodeHouse, SpaceXpress, and XYZ.
 
 ---
@@ -49,7 +49,7 @@ TechReads, ClassicPub, CodeHouse, SpaceXpress, and XYZ.
 
 ## Setup
 ```bash
-psql -U postgres -f schema.sql
+psql -U postgres -f library_schema.sql
 ```
 
 ---
